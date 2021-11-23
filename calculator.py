@@ -68,14 +68,8 @@ class Button():
 #250 430
 #10 360 
 
-def rightplace():
-    if len(currentstr) > 1:
-        if currentstr(0) == 0:
 
-    takeaway = len(currentstr)
-    takeaway = takeaway * 40
-    takeaway = 320 - takeaway
-    screen.blit(textsurface,(takeaway,50))
+
 
 
 button_one = Button(10, 360, one, 0.12)
